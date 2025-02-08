@@ -1,14 +1,14 @@
 {
-    "name": "Enver Studio",
-    "short_name": "Enver",
+    "name": "Maruf Ahmed",
+    "short_name": "marufahmed",
     "icons": [
       {
-        "src": "/android-chrome-192x192.png",
+        "src": "/favicon.png",
         "sizes": "192x192",
         "type": "image/png"
       },
       {
-        "src": "/android-chrome-512x512.png",
+        "src": "/favicon.png",
         "sizes": "512x512",
         "type": "image/png"
       }

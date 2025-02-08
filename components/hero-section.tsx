@@ -1,6 +1,9 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import { ArrowRight, Plus, Circle } from "lucide-react"
+import Link from "next/link"
 
 export default function HeroSection() {
   return (
@@ -9,14 +12,17 @@ export default function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">Build Your Awesome Platform</h1>
-            <p className="text-lg text-gray-400 max-w-lg">
+            <p className="text-lg text-gray-400 max-w-lg !mb-6">
               Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will
               provide the best service for those of you who use our services.
             </p>
-            <Button className="group" size="lg">
-              Our Services
-              <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
-            </Button>
+
+            <Link href='/services'>
+              <Button className="group" size="lg">
+                Our Services
+                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </Link>
           </div>
           <div className="relative">
             <div className="relative aspect-square max-w-md mx-auto rounded-md">
