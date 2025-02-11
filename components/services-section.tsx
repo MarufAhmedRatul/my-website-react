@@ -1,35 +1,35 @@
-import { Code2, Palette, PenTool, Play, Camera, Video } from "lucide-react"
+import { Code2, Palette, PenTool, ChartNoAxesCombined, Facebook, SearchCode } from "lucide-react"
 
 const services = [
   {
     icon: Code2,
-    title: "Development",
-    description: "Create a platform with the best and coolest quality from us.",
+    title: "Web Development",
+    description: "Clean, responsive websites built for speed, functionality, and seamless cross-device compatibility.",
   },
   {
     icon: Palette,
-    title: "UI/UX Designer",
-    description: "We provide UI/UX Design services, and of course with the best quality.",
+    title: "Web Design",
+    description: "Intuitive, visually engaging interfaces designed to elevate user experience and brand alignment.",
   },
   {
     icon: PenTool,
-    title: "Graphik Designer",
-    description: "We provide Graphic Design services, with the best designers.",
+    title: "Custom Solution",
+    description: "Bespoke digital tools tailored to solve your unique business challenges and workflows.",
   },
   {
-    icon: Play,
-    title: "Motion Graphik",
-    description: "Create a platform with the best and coolest quality from us.",
+    icon: ChartNoAxesCombined,
+    title: "Google Ads Management",
+    description: "Strategic campaigns targeting high-intent audiences to drive clicks, conversions, and measurable ROI.",
   },
   {
-    icon: Camera,
-    title: "Photography",
-    description: "We provide Photography services, and of course with the best quality.",
+    icon: Facebook,
+    title: "Facebook & Insta Ads",
+    description: "High-converting social ads crafted to boost engagement, traffic, and social-driven sales.",
   },
   {
-    icon: Video,
-    title: "Videography",
-    description: "Create a platform with the best and coolest quality from us.",
+    icon: SearchCode,
+    title: "Search Engine Optimization",
+    description: "Technical optimizations and keyword strategies to improve rankings and attract sustainable organic traffic.",
   },
 ]
 
@@ -38,7 +38,7 @@ export default function ServicesSection() {
     <section className="py-16" id="services">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">The Service We Provide For You</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">The Service I Provide For You</h2>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

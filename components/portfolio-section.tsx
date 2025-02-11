@@ -8,37 +8,37 @@ const projects = [
     title: "Mobile App Design",
     category: "UI/UX Design",
     image: "/placeholder.svg?height=600&width=400",
-    href: "/portfolio/mobile-app-design",
+    href: "/portfolios/mobile-app-design",
   },
   {
     title: "Website Design",
     category: "Web Development",
     image: "/placeholder.svg?height=600&width=400",
-    href: "/portfolio/website-design",
+    href: "/portfolios/website-design",
   },
   {
     title: "Brand Identity",
     category: "Graphic Design",
     image: "/placeholder.svg?height=600&width=400",
-    href: "/portfolio/brand-identity",
+    href: "/portfolios/brand-identity",
   },
   {
     title: "Motion Graphics",
     category: "Animation",
     image: "/placeholder.svg?height=600&width=400",
-    href: "/portfolio/motion-graphics",
+    href: "/portfolios/motion-graphics",
   },
   {
     title: "Product Photography",
     category: "Photography",
     image: "/placeholder.svg?height=600&width=400",
-    href: "/portfolio/product-photography",
+    href: "/portfolios/product-photography",
   },
   {
     title: "Corporate Video",
     category: "Videography",
     image: "/placeholder.svg?height=600&width=400",
-    href: "/portfolio/corporate-video",
+    href: "/portfolios/corporate-video",
   },
 ]
 

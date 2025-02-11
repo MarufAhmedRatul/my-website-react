@@ -11,11 +11,8 @@ export default function HeroSection() {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">Build Your Awesome Platform</h1>
-            <p className="text-lg text-gray-400 max-w-lg !mb-6">
-              Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will
-              provide the best service for those of you who use our services.
-            </p>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">Craft Your Digital Ecosystem</h1>
+            <p className="text-lg text-gray-400 max-w-lg !mb-6">I build fast, responsive websites and intuitive interfaces that get results. Mixing clean code with creative design to craft solutions tailored to your brand. From full site builds to targeted upgrades—focused on quality, precision, and boosting your online impact.</p>
 
             <Link href='/services'>
               <Button className="group" size="lg">

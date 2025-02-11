@@ -21,37 +21,37 @@ const projects = [
     title: "Mobile App Design",
     category: "UI/UX Design",
     image: "/placeholder.svg?height=600&width=400",
-    href: "/portfolio/mobile-app-design",
+    href: "/portfolios/mobile-app-design",
   },
   {
     title: "E-commerce Website",
     category: "Web Development",
     image: "/placeholder.svg?height=600&width=400",
-    href: "/portfolio/e-commerce-website",
+    href: "/portfolios/e-commerce-website",
   },
   {
     title: "Brand Identity",
     category: "Graphic Design",
     image: "/placeholder.svg?height=600&width=400",
-    href: "/portfolio/brand-identity",
+    href: "/portfolios/brand-identity",
   },
   {
     title: "Product Animation",
     category: "Animation",
     image: "/placeholder.svg?height=600&width=400",
-    href: "/portfolio/product-animation",
+    href: "/portfolios/product-animation",
   },
   {
     title: "Corporate Photoshoot",
     category: "Photography",
     image: "/placeholder.svg?height=600&width=400",
-    href: "/portfolio/corporate-photoshoot",
+    href: "/portfolios/corporate-photoshoot",
   },
   {
     title: "Promotional Video",
     category: "Videography",
     image: "/placeholder.svg?height=600&width=400",
-    href: "/portfolio/promotional-video",
+    href: "/portfolios/promotional-video",
   },
   // Add more projects as needed
 ]
